@@ -1,0 +1,159 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(85, 103, 160);
+    /* height: 60px; */
+    overflow:auto;
+    position: fixed;
+    padding-left: 40px;
+}
+.navbar a{
+    float: left;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: yellowgreen;
+}
+.top-section{
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.flexible-container{
+    display: flex;
+}
+
+
+.top-section-half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 100px;
+}
+.left-first{
+    padding-top: 200px;
+}
+.top-span{
+    color: orangered;
+}
+.top-section-half-width img{
+    width: 80%;
+}
+
+.top-a{
+    padding-bottom: 30px;
+    color: rgba(80, 69, 69, 0.829);
+}
+.order-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700px;
+}
+
+.about-secton{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-bottom: 40px;
+
+}
+.about-half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.about-half-width img{
+    width: 80%;
+}
+.about-a{
+    padding-bottom: 60px;
+}
+.about-h1{
+    color: #423737c9;
+}
+.contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700px;
+}
+
+.recipi-section{
+    padding-bottom: 80px;
+}
+
+.recipi-text{
+    text-align: center;
+    color: #423737c9;
+    padding-bottom: 20px;
+}
+.recipi-item{
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: gray 10px 10px 40px;
+    border-radius: 18px;
+}
+.recipi-item img{
+    width: 90%;
+    padding: 5%;
+}
+.recipi-item-text{
+    padding-left: 5%;
+}
+
+.follower-section{
+    padding-bottom: 40px;
+}
+
+.follower{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: gray 10px 10px 40px;
+    border-radius: 20px;
+}
+.social-media{
+    width: 25%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-decoration: none;
+
+}
+
+footer{
+    background-color: black;
+    height: 250px;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+ .footer-span{
+     color:orangered;     
+
+ }
+  footer h1{
+      text-align: center;
+      color: rgba(161, 148, 148, 0.932);
+      padding-top: 30px;
+  }
